@@ -1,0 +1,65 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    max-width: 600px;
+    }
+
+header{
+    background-image: url(./img/bubble.jpeg.jpg);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+
+p {
+    background-color: black;
+    outline: 2px;
+    outline-color: white;
+    outline-style: solid;
+    padding: 5px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 55px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black; ;
+}
+
+body{
+    background-color: #356266;
+    }
+
+form{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #ABD7AD;
+    background-image: linear-gradient(#077f8d, #ABD7AD);
+    border-radius: 15px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: circle;
+}
+
+#submit {
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 5px;
+    outline-style: double;
+    outline-color: #356266;
+    border-radius: 10px;
+}
+
+#submit:hover{  background-color: #077f8d;
+color: white;}
